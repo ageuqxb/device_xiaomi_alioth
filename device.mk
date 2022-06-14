@@ -176,10 +176,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dpmhalservice.enable=1
 
-# Doze
-PRODUCT_PACKAGES += \
-    ParanoidDoze
-
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.sensor.pickup=xiaomi.sensor.pickup
 
@@ -279,8 +275,6 @@ PRODUCT_PACKAGES += \
     AliothFrameworks \
     AliothSettings \
     AliothSystemUI \
-    AOSPAAliothFrameworks \
-    AOSPAAliothSystemUI \
     FrameworksResTarget \
     SettingsOverlayM2012K11AG \
     SettingsOverlayM2012K11AI \
