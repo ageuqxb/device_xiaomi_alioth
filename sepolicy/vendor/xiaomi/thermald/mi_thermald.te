@@ -38,7 +38,6 @@ allow mi_thermald vendor_sysfs_graphics:file w_file_perms;
 r_dir_file(mi_thermald, vendor_sysfs_kgsl)
 allow mi_thermald vendor_sysfs_kgsl:file w_file_perms;
 
-# Allow mi_thermald to set thermal prop
 set_prop(mi_thermald, vendor_thermal_normal_prop)
 
 # Allow mi_thermald to create wakelock
