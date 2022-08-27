@@ -298,10 +298,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 TARGET_COMMON_QTI_COMPONENTS := all
 TARGET_NFC_SKU := alioth
 
-# Remove some prebuilt apps
-PRODUCT_PACKAGES += \
-	  RemovePackagesDevice
-
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.sensors.allow_non_default_discovery=true \
